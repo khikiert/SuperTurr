@@ -1,4 +1,4 @@
 # SuperTurr
 Super Tux game remake project
 
-See [the project Wikis](https://github.com/khikiert/SuperTurr/wiki) for details.
+See [the project Wikis](https://github.com/khikiert/SuperTurr/wiki) for latest releases and details.
