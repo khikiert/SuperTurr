@@ -1,0 +1,25 @@
+;SuperTux-Level
+(supertux-level
+  (version 1)
+  (name "Title screen")
+  (music "title.ogg")
+  (music_loops -1)
+  (background "superturr/title.png")
+  (particle_system "")
+  (bkgd_speed 0)
+  (bkgd_red_top 0)
+  (bkgd_green_top 0)
+  (bkgd_blue_top 0)
+  (bkgd_red_bottom 0)
+  (bkgd_green_bottom 0)
+  (bkgd_blue_bottom 0)
+  (time 500)
+  (width 300)
+  (back_scrolling #f)
+  (hor_autoscroll_speed 0.0)
+  (gravity 10.0)
+(reset-points
+)
+(objects
+)
+)

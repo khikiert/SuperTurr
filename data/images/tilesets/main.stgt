@@ -1,0 +1,83 @@
+;SuperTux-Tile-Definition
+(supertux-tiles
+
+  (tileset
+	(file "turri_column.stgt"))
+  (tileset
+	(file "turri_plants-1.stgt"))
+  (tileset)
+	(file "turri_plants-2.stgt"))
+  (tileset
+	(file "turri_pipe/turri_pipe-1.stgt"))
+  (tileset)
+	(file "turri_pipe/turri_pipe-2.stgt"))
+  (tileset 
+        (file "gods-1.stgt"))
+  (tileset 
+        (file "gods-2.stgt"))
+  (tileset 
+        (file "gods-3.stgt"))
+  (tileset 
+        (file "gods-4.stgt"))
+  (tileset 
+        (file "gods-5.stgt"))
+  (tileset 
+        (file "gods-6.stgt"))
+  (tileset 
+        (file "gods-7.stgt"))
+  (tileset 
+        (file "gods-8.stgt"))
+  (tileset 
+        (file "gods-9.stgt"))
+  (tileset 
+        (file "gods-10.stgt"))
+  (tileset 
+        (file "gods-11.stgt"))
+  (tileset 
+        (file "gods-12.stgt"))
+  (tileset 
+        (file "gods-13.stgt"))
+  (tileset 
+        (file "gods-14.stgt"))
+  (tileset 
+        (file "gods-15.stgt"))
+  (tileset 
+        (file "gods-0.stgt"))
+  (tileset 
+        (file "turri-rock7.stgt"))
+  (tileset 
+        (file "turri-rock6.stgt"))
+  (tileset 
+        (file "turri-rock5.stgt"))
+  (tileset 
+        (file "turri-plants.stgt"))
+  (tileset 
+        (file "turri-water.stgt"))
+  (tileset 
+        (file "turri-rock1.stgt"))
+  (tileset 
+        (file "turri-rock2.stgt"))
+  (tileset 
+        (file "turri-rock3.stgt"))
+  (tileset 
+        (file "turri-1.stgt"))
+  (tileset 
+        (file "turri-2.stgt"))
+  (tileset 
+        (file "turri-3.stgt"))
+  (tileset 
+        (file "turri-4.stgt"))
+  (tileset 
+        (file "background.stgt"))
+  (tileset 
+        (file "block.stgt"))
+  (tileset 
+        (file "misc.stgt"))
+  (tileset 
+        (file "darksnow.stgt"))
+  (tileset 
+        (file "grey.stgt"))
+  (tileset 
+        (file "snow.stgt"))
+)
+        

@@ -1,0 +1,807 @@
+;; -*- mode: scheme; -*-
+(supertux-resources
+
+ ;; Turriball move
+ (sprite (name "turriball-move-left")
+         (fps 15.0)
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-left-1.png"
+                 "shared/superturr/RGB/turriball-left-2.png"))
+
+ (sprite (name "turriball-move-right")
+         (fps 15.0)
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-right-1.png"
+                 "shared/superturr/RGB/turriball-right-2.png"))
+
+ ;; Turriball stop
+ (sprite (name "turriball-stop-left")
+         (fps 15.0)
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-left-1.png"
+                 ))
+
+ (sprite (name "turriball-stop-right")
+         (fps 15.0)
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-right-1.png"))
+
+ ;; Turriball jump
+ (sprite (name "turriball-jump-left")
+         (fps 15.0)
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-left-1.png"
+                 "shared/superturr/RGB/turriball-left-2.png"))
+
+ (sprite (name "turriball-jump-right")
+         (fps 15.0)
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-right-1.png"
+                 "shared/superturr/RGB/turriball-right-2.png"))
+
+ (sprite (name "turriball-gameover")
+         (fps 10.0)
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-left-1.png"))
+
+ (sprite (name "turriball-skid-left")
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-right-1.png"))
+
+ (sprite (name "turriball-skid-right")
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-left-1.png"))
+
+ (sprite (name "turriball-kick-left")
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-left-1.png"))
+
+ (sprite (name "turriball-kick-right")
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-right-1.png"))
+
+ (sprite (name "turriball-grab-left")
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-left-1.png"))
+
+ (sprite (name "turriball-grab-right")
+         (x-hotspot 5)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turriball-right-1.png"))
+
+ (sprite (name "turriball-shield")
+         (fps 50.0)
+         (x-hotspot 16)
+         (y-hotspot 46)
+         (images "shared/superturr/turri_shield-1.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-1.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-2.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-2.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-3.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-3.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-4.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-4.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-5.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-5.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-6.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-6.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-7.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-7.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-8.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-8.png"
+                 "shared/superturr/turri_shield-0.png"))
+
+ ;; Turrican walk
+ (sprite (name "turrican-walk-left")
+         (fps 20.0)
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-run-left-1.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-2.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-3.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-4.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-5.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-6.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-7.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-8.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-9.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-10.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-11.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-12.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-13.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-14.png"))
+
+ (sprite (name "turrican-walk-right")
+         (fps 20.0)
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-run-right-1.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-2.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-3.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-4.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-5.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-6.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-7.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-8.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-9.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-10.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-11.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-12.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-13.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-14.png"))
+
+ (sprite (name "turrican-skid-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-skid-left.png"))
+
+ (sprite (name "turrican-skid-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-skid-right.png"))
+        
+ (sprite (name "turrican-stand-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-stand-left.png"))
+
+ (sprite (name "turrican-stand-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-stand-right.png"))
+
+ (sprite (name "turrican-jump-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-jump-left.png"))
+
+ (sprite (name "turrican-jump-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-jump-right.png"))
+
+ (sprite (name "turrican-duck-left")
+         (x-hotspot 16)
+         (y-hotspot 22)
+         (images "shared/superturr/RGB/turrican_THQ-duck-left.png"))
+
+ (sprite (name "turrican-duck-right")
+         (x-hotspot 16)
+         (y-hotspot 22)
+         (images "shared/superturr/RGB/turrican_THQ-duck-right.png"))
+
+ (sprite (name "turrican-kick-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-kick-left.png"))
+
+ (sprite (name "turrican-kick-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-kick-right.png"))
+
+ (sprite (name "turrican-grab-left")
+         (x-hotspot 16)
+         (y-hotspot 1)
+         (images "shared/largetux-grab-left-0.png"))
+
+ (sprite (name "turrican-grab-right")
+         (x-hotspot 16)
+         (y-hotspot 1)
+         (images "shared/largetux-grab-right-0.png"))
+
+ (sprite (name "turrican-shield")
+         (fps 50.0)
+         (x-hotspot 16)
+         (y-hotspot 14)
+         (images "shared/superturr/turri_shield-1.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-1.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-2.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-2.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-3.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-3.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-4.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-4.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-5.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-5.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-6.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-6.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-7.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-7.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-8.png"
+                 "shared/superturr/turri_shield-0.png"
+                 "shared/superturr/turri_shield-8.png"
+                 "shared/superturr/turri_shield-0.png"))
+
+ ;; Turrican Mode2
+ (sprite (name "turricanUpgrade-walk-left")
+         (fps 20.0)
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-run-left-1.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-2.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-3.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-4.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-5.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-6.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-7.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-8.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-9.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-10.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-11.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-12.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-13.png"
+                 "shared/superturr/RGB/turrican_THQ-run-left-14.png"))
+
+ (sprite (name "turricanUpgrade-walk-right")
+         (fps 20.0)
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-run-right-1.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-2.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-3.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-4.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-5.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-6.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-7.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-8.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-9.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-10.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-11.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-12.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-13.png"
+                 "shared/superturr/RGB/turrican_THQ-run-right-14.png"))
+
+ (sprite (name "turricanUpgrade-skid-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-skid-left.png"))
+
+ (sprite (name "turricanUpgrade-skid-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-skid-right.png"))
+       
+ (sprite (name "turricanUpgrade-stand-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-stand-left.png"))
+
+ (sprite (name "turricanUpgrade-stand-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-stand-right.png"))
+
+ (sprite (name "turricanUpgrade-jump-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-jump-left.png"))
+
+ (sprite (name "turricanUpgrade-jump-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-jump-right.png"))
+
+ (sprite (name "turricanUpgrade-duck-left")
+         (x-hotspot 16)
+         (y-hotspot 22)
+         (images "shared/superturr/RGB/turrican_THQ-duck-left.png"))
+
+ (sprite (name "turricanUpgrade-duck-right")
+         (x-hotspot 16)
+         (y-hotspot 22)
+         (images "shared/superturr/RGB/turrican_THQ-duck-right.png"))
+
+ (sprite (name "turricanUpgrade-kick-left")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-kick-left.png"))
+
+ (sprite (name "turricanUpgrade-kick-right")
+         (x-hotspot 16)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/turrican_THQ-kick-right.png"))
+
+ (sprite (name "turricanUpgrade-grab-left")
+         (x-hotspot 16)
+         (y-hotspot 1)
+         (images "shared/firetux-grab-left-0.png"))
+
+ (sprite (name "turricanUpgrade-grab-right")
+         (x-hotspot 16)
+         (y-hotspot 1)
+         (images "shared/firetux-grab-right-0.png"))
+
+ (sprite (name "walker2-walk-left")
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker2-walk-left-1.png"
+                 "shared/superturr/RGB/walker2-walk-left-2.png"
+                 "shared/superturr/RGB/walker2-walk-left-3.png"
+                 "shared/superturr/RGB/walker2-walk-left-4.png"
+                 "shared/superturr/RGB/walker2-walk-left-5.png"
+                 "shared/superturr/RGB/walker2-walk-left-6.png"
+                 "shared/superturr/RGB/walker2-walk-left-7.png"
+                 "shared/superturr/RGB/walker2-walk-left-8.png"))
+
+ (sprite (name "walker2-walk-right")
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker2-walk-right-1.png"
+                 "shared/superturr/RGB/walker2-walk-right-2.png"
+                 "shared/superturr/RGB/walker2-walk-right-3.png"
+                 "shared/superturr/RGB/walker2-walk-right-4.png"
+                 "shared/superturr/RGB/walker2-walk-right-5.png"
+                 "shared/superturr/RGB/walker2-walk-right-6.png"
+                 "shared/superturr/RGB/walker2-walk-right-7.png"
+                 "shared/superturr/RGB/walker2-walk-right-8.png"))
+
+ (sprite (name "walker2-run-left")
+         (fps 25.0)
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker2-flat-left-1.png"
+                 "shared/superturr/RGB/walker2-flat-left-2.png"))
+
+ (sprite (name "walker2-run-right")
+         (fps 25.0)
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker2-flat-right-1.png"
+                 "shared/superturr/RGB/walker2-flat-right-2.png"))
+
+ (sprite (name "walker2-flat-left")
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker2-flat-left-1.png"))
+
+ (sprite (name "walker2-flat-right")
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker2-flat-right-1.png"))
+
+; (sprite (name "walker1-explode-left")
+;         (x-hotspot 1)
+;         (y-hotspot 10)
+;         (fps 15)
+;         (images "shared/st-explosion-1.png"
+;                 "shared/st-explosion-2.png"
+;                 "shared/st-explosion-3.png"
+;                 "shared/st-explosion-4.png"
+;                 "shared/st-explosion-5.png"
+;                 "shared/st-explosion-6.png"
+;                 "shared/st-explosion-7.png"
+;                 "shared/st-explosion-8.png"))
+
+
+; (sprite (name "walker1-explode-right")
+;         (x-hotspot 1)
+;         (y-hotspot 10)
+;         (fps 15)
+;         (images "shared/st-explosion-1.png"
+;                 "shared/st-explosion-2.png"
+;                 "shared/st-explosion-3.png"
+;                 "shared/st-explosion-4.png"
+;                 "shared/st-explosion-5.png"
+;                 "shared/st-explosion-6.png"
+;                 "shared/st-explosion-7.png"
+;                 "shared/st-explosion-8.png"))
+
+ (sprite (name "largespikyball-up")
+         (x-hotspot 7)
+         (y-hotspot 8)
+         (images "shared/superturr/ball.png"))
+
+ (sprite (name "largespikyball-down")
+         (x-hotspot 7)
+         (y-hotspot 8)
+         (images "shared/superturr/ball.png"))
+
+ (sprite (name "largespikyball-middle")
+         (x-hotspot 7)
+         (y-hotspot 8)
+         (images "shared/superturr/ball.png"))
+
+ (sprite (name "walker3-walk-left")
+         (fps 10.0)
+         (x-hotspot 3)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker3-walk-left-1.png"
+                 "shared/superturr/RGB/walker3-walk-left-2.png"
+                 "shared/superturr/RGB/walker3-walk-left-3.png"
+                 "shared/superturr/RGB/walker3-walk-left-4.png"))
+
+ (sprite (name "walker3-walk-right")
+         (fps 10.0)
+         (x-hotspot 7)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker3-walk-right-1.png"
+                 "shared/superturr/RGB/walker3-walk-right-2.png"
+                 "shared/superturr/RGB/walker3-walk-right-3.png"
+                 "shared/superturr/RGB/walker3-walk-right-4.png"))
+
+ (sprite (name "walker3-countdown-left")
+         (fps 15.0)
+         (x-hotspot 3)
+         (y-hotspot 8)
+         (images "shared/superturr/RGB/walker3-flat-left.png"
+                 "shared/superturr/RGB/walker3-flat-left.png"))
+
+ (sprite (name "walker3-countdown-right")
+         (fps 15.0)
+         (x-hotspot 10)
+         (y-hotspot 8)
+         (images "shared/superturr/RGB/walker3-flat-right.png"
+                 "shared/superturr/RGB/walker3-flat-right.png"))
+
+ (sprite (name "walker3-explode")
+         (fps 38.0)
+         (x-hotspot 32)
+         (y-hotspot 32)
+         (images "shared/superturr/walker_explosion2-1.png"
+                 "shared/superturr/walker_explosion2-2.png"
+                 "shared/superturr/walker_explosion2-3.png"
+                 "shared/superturr/walker_explosion2-4.png"
+                 "shared/superturr/walker_explosion2-5.png"
+                 "shared/superturr/walker_explosion2-6.png"
+                 "shared/superturr/walker_explosion2-7.png"
+                 "shared/superturr/walker_explosion2-8.png"
+                 "shared/superturr/walker_explosion2-9.png"
+                 "shared/superturr/walker_explosion2-10.png"
+                 "shared/superturr/walker_explosion2-11.png"
+                 "shared/superturr/walker_explosion2-12.png"
+                 "shared/superturr/walker_explosion2-13.png"
+                 "shared/superturr/walker_explosion2-14.png"
+                 "shared/superturr/walker_explosion2-15.png"
+                 "shared/superturr/walker_explosion2-16.png"
+                 "shared/superturr/walker_explosion2-17.png"
+                 "shared/superturr/walker_explosion2-18.png"
+                 "shared/superturr/walker_explosion2-19.png"
+                 "shared/superturr/walker_explosion2-20.png"
+                 "shared/superturr/walker_explosion2-21.png"
+                 "shared/superturr/walker_explosion2-22.png"
+                 "shared/superturr/walker_explosion2-23.png"
+                 "shared/superturr/walker_explosion2-24.png"
+                 "shared/superturr/walker_explosion2-25.png"
+                 "shared/superturr/walker_explosion2-26.png"
+                 "shared/superturr/walker_explosion2-27.png"
+                 "shared/superturr/walker_explosion2-28.png"
+                 "shared/superturr/walker_explosion2-29.png"
+                 "shared/superturr/walker_explosion2-30.png"
+                 "shared/superturr/walker_explosion2-31.png"
+                 "shared/superturr/walker_explosion2-32.png"
+                 "shared/superturr/walker_explosion2-33.png"
+                 "shared/superturr/walker_explosion2-34.png"
+                 "shared/superturr/walker_explosion2-35.png"
+                 "shared/superturr/walker_explosion2-36.png"
+                 "shared/superturr/walker_explosion2-37.png"
+                 "shared/superturr/walker_explosion2-38.png"))
+
+ (sprite (name "stalactite")
+         (x-hotspot 0)
+         (y-hotspot 0)
+         (images "shared/superturr/stalaktyt.png"))
+
+ (sprite (name "stalactite-broken")
+         (x-hotspot 0)
+         (y-hotspot 16)
+         (images "shared/superturr/stalactite-broken.png"))
+
+ (sprite (name "smallspikyball")
+         (images "shared/superturr/turriflame-0.png"))
+
+ (sprite (name "fish")
+         (x-hotspot 2)
+         (y-hotspot 3)
+         (images "shared/fish-left-0.png"
+                 "shared/fish-left-1.png"))
+
+ (sprite (name "fish-down")
+         (x-hotspot 2)
+         (y-hotspot 11)
+         (images "shared/fish-down-0.png"))
+
+ (sprite (name "jumpingcreature-left")
+         (x-hotspot 1)
+         (y-hotspot 0)
+         (images "shared/superturr/grzybek-left-1.png"
+                 "shared/superturr/grzybek-left-2.png"
+                 "shared/superturr/grzybek-left-3.png"
+                 "shared/superturr/grzybek-left-4.png"))
+
+ (sprite (name "jumpingcreature-right")
+         (x-hotspot 1)
+         (y-hotspot 0)
+         (images "shared/superturr/grzybek-right-1.png"
+                 "shared/superturr/grzybek-right-2.png"
+                 "shared/superturr/grzybek-right-3.png"
+                 "shared/superturr/grzybek-right-4.png"))
+
+; (sprite (name "jumpingcreature-explode")
+;         (x-hotspot 1)
+;         (y-hotspot -19)
+;         (fps 15)
+;         (images "shared/st-explosion-1.png"
+;                 "shared/st-explosion-2.png"
+;                 "shared/st-explosion-3.png"
+;                 "shared/st-explosion-4.png"
+;                 "shared/st-explosion-5.png"
+;                 "shared/st-explosion-6.png"
+;                 "shared/st-explosion-7.png"
+;                 "shared/st-explosion-8.png"))
+
+ (sprite (name "flywalker3-fly")
+         (x-hotspot 4)
+         (y-hotspot 3)
+         (fps 33)
+         (images "shared/superturr/flywalker-1.png"
+                 "shared/superturr/flywalker-2.png"
+                 "shared/superturr/flywalker-3.png"
+                 "shared/superturr/flywalker-4.png"
+                 "shared/superturr/flywalker-5.png"
+                 "shared/superturr/flywalker-6.png"
+                 "shared/superturr/flywalker-7.png"
+                 "shared/superturr/flywalker-8.png"
+                 "shared/superturr/flywalker-9.png"
+                 "shared/superturr/flywalker-10.png"
+                 "shared/superturr/flywalker-11.png"
+                 "shared/superturr/flywalker-12.png"
+                 "shared/superturr/flywalker-13.png"
+                 "shared/superturr/flywalker-14.png"
+                 "shared/superturr/flywalker-15.png"
+                 "shared/superturr/flywalker-16.png"
+                 "shared/superturr/flywalker-17.png"
+                 "shared/superturr/flywalker-18.png"
+                 "shared/superturr/flywalker-19.png"
+                 "shared/superturr/flywalker-20.png"
+                 "shared/superturr/flywalker-21.png"
+                 "shared/superturr/flywalker-22.png"
+                 "shared/superturr/flywalker-23.png"
+                 "shared/superturr/flywalker-24.png"))
+
+; (sprite (name "flywalker3-explode")
+;         (x-hotspot 1)
+;         (y-hotspot 10)
+;         (fps 15)
+;         (images "shared/st-explosion-1.png"
+;                 "shared/st-explosion-2.png"
+;                 "shared/st-explosion-3.png"
+;                 "shared/st-explosion-4.png"
+;                 "shared/st-explosion-5.png"
+;                 "shared/st-explosion-6.png"
+;                 "shared/st-explosion-7.png"
+;                 "shared/st-explosion-8.png"))
+
+ (sprite (name "crab-walk-left")
+         (x-hotspot 6)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/krab-left-1.png"
+                 "shared/superturr/RGB/krab-left-2.png"))
+
+ (sprite (name "crab-walk-right")
+         (x-hotspot 6)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/krab-right-1.png"
+                 "shared/superturr/RGB/krab-right-2.png"))
+
+ (sprite (name "walker1-walk-left")
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker1-walk-left-1.png"
+                 "shared/superturr/RGB/walker1-walk-left-2.png"
+                 "shared/superturr/RGB/walker1-walk-left-3.png"
+                 "shared/superturr/RGB/walker1-walk-left-4.png"
+                 "shared/superturr/RGB/walker1-walk-left-5.png"
+                 "shared/superturr/RGB/walker1-walk-left-6.png"
+                 "shared/superturr/RGB/walker1-walk-left-7.png"
+                 "shared/superturr/RGB/walker1-walk-left-8.png"))
+
+ (sprite (name "walker1-walk-right")
+         (x-hotspot 2)
+         (y-hotspot 10)
+         (images "shared/superturr/RGB/walker1-walk-right-1.png"
+                 "shared/superturr/RGB/walker1-walk-right-2.png"
+                 "shared/superturr/RGB/walker1-walk-right-3.png"
+                 "shared/superturr/RGB/walker1-walk-right-4.png"
+                 "shared/superturr/RGB/walker1-walk-right-5.png"
+                 "shared/superturr/RGB/walker1-walk-right-6.png"
+                 "shared/superturr/RGB/walker1-walk-right-7.png"
+                 "shared/superturr/RGB/walker1-walk-right-8.png"))
+
+ (sprite (name "bonus-mode1")
+         (fps 20)
+         (images "shared/superturr/powerup-1.png"
+                 "shared/superturr/powerup-2.png"
+                 "shared/superturr/powerup-3.png"
+                 "shared/superturr/powerup-4.png"
+                 "shared/superturr/powerup-5.png"
+                 "shared/superturr/powerup-6.png"
+                 "shared/superturr/powerup-7.png"
+                 "shared/superturr/powerup-8.png"
+                 "shared/superturr/powerup-9.png"
+                 "shared/superturr/powerup-10.png"
+                 "shared/superturr/powerup-9.png"
+                 "shared/superturr/powerup-8.png"
+                 "shared/superturr/powerup-7.png"
+                 "shared/superturr/powerup-6.png"
+                 "shared/superturr/powerup-5.png"
+                 "shared/superturr/powerup-4.png"
+                 "shared/superturr/powerup-3.png"
+                 "shared/superturr/powerup-2.png"))
+
+ (sprite (name "bonus-1up")
+         (images "shared/superturr/1up.png"))
+
+ (sprite (name "bonus-shield")
+         (images "shared/superturr/bonus_shield.png"))
+
+ (sprite (name "bonus-mode2")
+         (images "shared/superturr/RGB/iceflower.png"))
+
+ (sprite (name "bounceshot")
+         (x-hotspot 12)
+         (x-hotspot 12)
+         (fps 20)
+         (images "shared/superturr/shot.png"))
+
+ (sprite (name "flywalker2-fly-left")
+         (x-hotspot 12)
+         (x-hotspot 12)
+         (fps 20)
+         (images "shared/superturr/flying_walker-left.png"))
+
+ (sprite (name "flywalker2-fly-right")
+         (x-hotspot 12)
+         (x-hotspot 12)
+         (fps 20)
+         (images "shared/superturr/flying_walker-right.png"))
+
+ (sprite (name "swimwalker2-swim-right")
+         (x-hotspot 4)
+         (y-hotspot 3)
+         (fps 8)
+         (images "shared/superturr/RGB/swimwalker-right-1.png"
+                 "shared/superturr/RGB/swimwalker-right-2.png"
+                 "shared/superturr/RGB/swimwalker-right-3.png"
+                 "shared/superturr/RGB/swimwalker-right-4.png"))
+
+ (sprite (name "swimwalker2-swim-left")
+         (x-hotspot 4)
+         (y-hotspot 3)
+         (fps 8)
+         (images "shared/superturr/RGB/swimwalker-left-1.png"
+                 "shared/superturr/RGB/swimwalker-left-2.png"
+                 "shared/superturr/RGB/swimwalker-left-3.png"
+                 "shared/superturr/RGB/swimwalker-left-4.png"))
+
+ (sprite (name "godsmonster-walk-left")
+         (x-hotspot 16)
+         (y-hotspot 32)
+         (fps 8)
+         (images "shared/superturr/gods-monster1-left-1.png"
+                 "shared/superturr/gods-monster1-left-2.png"
+                 "shared/superturr/gods-monster1-left-3.png"
+                 "shared/superturr/gods-monster1-left-4.png"
+                 "shared/superturr/gods-monster1-left-5.png"
+                 "shared/superturr/gods-monster1-left-6.png"
+                 "shared/superturr/gods-monster1-left-7.png"
+                 "shared/superturr/gods-monster1-left-8.png"))
+
+ (sprite (name "godsmonster-walk-right")
+         (x-hotspot 16)
+         (y-hotspot 32)
+         (fps 8)
+         (images "shared/superturr/gods-monster1-right-1.png"
+                 "shared/superturr/gods-monster1-right-2.png"
+                 "shared/superturr/gods-monster1-right-3.png"
+                 "shared/superturr/gods-monster1-right-4.png"
+                 "shared/superturr/gods-monster1-right-5.png"
+                 "shared/superturr/gods-monster1-right-6.png"
+                 "shared/superturr/gods-monster1-right-7.png"
+                 "shared/superturr/gods-monster1-right-8.png"))
+
+ (sprite (name "explosion")
+         (x-hotspot 1)
+         (y-hotspot 10)
+         (fps 15)
+         (images "shared/superturr/st-explosion-1.png"
+                 "shared/superturr/st-explosion-2.png"
+                 "shared/superturr/st-explosion-3.png"
+                 "shared/superturr/st-explosion-4.png"
+                 "shared/superturr/st-explosion-5.png"
+                 "shared/superturr/st-explosion-6.png"
+                 "shared/superturr/st-explosion-7.png"
+                 "shared/superturr/st-explosion-8.png"))
+
+ (sprite (name "bird-flying")
+         (x-hotspot 0)
+         (y-hotspot 10)
+         (fps 10)
+         (images "shared/superturr/ptaszek-1.png"
+                 "shared/superturr/ptaszek-1.png"
+                 "shared/superturr/ptaszek-1.png"
+                 "shared/superturr/ptaszek-2.png"
+                 "shared/superturr/ptaszek-2.png"
+                 "shared/superturr/ptaszek-3.png"
+                 "shared/superturr/ptaszek-2.png"
+                 "shared/superturr/ptaszek-2.png"))
+
+  (sprite (name "bumped-walker1-left")
+          (x-hotspot 0)
+          (y-hotspot 0)
+          (fps 10)
+          (images "shared/superturr/bumped/walker1-bumped-left.png"))
+
+  (sprite (name "bumped-walker1-right")
+          (x-hotspot 0)
+          (y-hotspot 0)
+          (fps 10)
+          (images "shared/superturr/bumped/walker1-bumped-right.png"))
+
+  (sprite (name "bumped-walker2-left")
+          (x-hotspot 0)
+          (y-hotspot 0)
+          (fps 10)
+          (images "shared/superturr/bumped/walker2-bumped-left.png"))
+
+  (sprite (name "bumped-walker2-right")
+          (x-hotspot 0)
+          (y-hotspot 0)
+          (fps 10)
+          (images "shared/superturr/bumped/walker2-bumped-right.png"))
+
+  (sprite (name "bumped-walker3-left")
+          (x-hotspot 0)
+          (y-hotspot 0)
+          (fps 10)
+          (images "shared/superturr/bumped/walker3-bumped-left.png"))
+
+  (sprite (name "bumped-walker3-right")
+          (x-hotspot 0)
+          (y-hotspot 0)
+          (fps 10)
+          (images "shared/superturr/bumped/walker3-bumped-right.png"))
+ )
+
+;; EOF ;;

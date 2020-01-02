@@ -1,0 +1,3 @@
+Datadir: PROGDIR:data
+loadgame: PROGDIR:.supertux/save/slot1.stsg
+Enter the current level: world1/level5.stl
