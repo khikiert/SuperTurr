@@ -1,0 +1,26 @@
+;SuperTux-Tile-Definition
+(supertux-tiles
+  (properties 
+        (id 13))
+  (tile (id 1)
+        (images "superturr/turri-water-1-1.png")
+	(solid #f)
+        (turriwater #t))
+  (tile (id 2)
+        (images "superturr/turri-water-1-2.png")
+	(solid #f)
+        (turriwater #t))
+  (tile (id 3)
+        (images "superturr/turri-water-2-1.png")
+	(solid #f)
+        (turriwater #t))
+  (tile (id 4)
+        (images "superturr/turri-water-2-2.png")
+	(solid #f)
+        (turriwater #t))
+  (tile (id 5)
+        (images "superturr/turri-water-transparency.png")
+	(solid #f)
+        (turriwater #t))
+	)
+        

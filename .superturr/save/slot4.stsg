@@ -1,0 +1,14 @@
+(supertux-savegame
+  (version 1)
+  (title  "Walkers Planet - 0/26")
+  (lives   4)
+  (score   9185)
+  (distros 41)
+  (tux (x 4) (y 6)
+       (back "north")
+       (bonus "growup"))
+  (levels
+   )
+ )
+
+;; EOF ;;

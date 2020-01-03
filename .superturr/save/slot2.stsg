@@ -1,0 +1,20 @@
+(supertux-savegame
+  (version 1)
+  (title  "Walkers Planet - 3/26")
+  (lives   21)
+  (score   47590)
+  (diamonds 99)
+  (turr (x 4) (y 8)
+       (back "north")
+       (bonus "iceflower"))
+  (levels
+     (level (name "world1/level1.stl")
+            (solved #t))
+     (level (name "world1/level2.stl")
+            (solved #t))
+     (level (name "world1/level3.stl")
+            (solved #t))
+   )
+ )
+
+;; EOF ;;

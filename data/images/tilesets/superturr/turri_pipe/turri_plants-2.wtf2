@@ -1,0 +1,17 @@
+;SuperTux-Tile-Definition
+(supertux-tiles
+  (properties 
+        (id 37))
+  (tile (id 1)
+	(images "superturr/plants/turri_plant_3-3-1.png")
+	(solid #f))
+  (tile (id 2)
+	(images "superturr/plants/turri_plant_3-3-2.png")
+	(solid #f))
+  (tile (id 3)
+	(images "superturr/plants/turri_plant_3-4-1.png")
+	(solid #f))
+  (tile (id 4)
+	(images "superturr/plants/turri_plant_3-4-2.png")
+	(solid #f))
+	)

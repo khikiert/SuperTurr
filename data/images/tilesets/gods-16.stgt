@@ -1,0 +1,12 @@
+;SuperTux-Tile-Definition
+(supertux-tiles
+  (properties 
+        (id 33))
+  (tile (id 1)
+        (images "superturr/gods/gods-301.png")
+	(solid #t))
+  (tile (id 2)
+        (images "superturr/gods/gods-302.png")
+	(solid #t))
+
+	)

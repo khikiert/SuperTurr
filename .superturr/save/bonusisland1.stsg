@@ -1,0 +1,16 @@
+(supertux-savegame
+  (version 1)
+  (title  "Walkers Planet - 1/40")
+  (lives   1)
+  (score   1625)
+  (diamonds 53)
+  (turr (x 21) (y 17)
+       (back "west")
+       (bonus "none"))
+  (levels
+     (level (name "bonus1/bonus-level1.stl")
+            (solved #t))
+   )
+ )
+
+;; EOF ;;
